@@ -1,4 +1,17 @@
 
-```c#
+```
 dotnet new console
 ```
+
+```
+dotnet add package Microsoft.AspNetCore.Server.Kestrel
+```
+
+```
+dotnet restore
+```
+
+```
+dotnet run
+```
+
