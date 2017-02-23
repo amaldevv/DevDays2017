@@ -16,14 +16,19 @@ Download and install .NET Core SDK  from the following link -[https://github.com
 To make sure that everthing is working fine, create a test project and run it using the following commands
 
 1. Create a new directory using from command line or GUI 
-    ```> md Test```
+    ``` md Test```
     and set it as the current directory
-    ```>cd Test```
+    ```cd Test```
 2. Create a console project 
-    ```> dotnet new console```
+    ``` dotnet new console```
+    Output will be
+    ```Content generation time: 58.5199 ms
+    The template "Console Application" created successfully.``` 
 
 3. Restore packages
-   ```> dotnet restore```
+   ``` dotnet restore```
 
 4. Build and run the application
-   ```> dotnet run```
+   ``` dotnet run```
+5. If the you the below output when you execute the application in Step 4 then everything is fine and we are good to go
+   ```Hello World!```
