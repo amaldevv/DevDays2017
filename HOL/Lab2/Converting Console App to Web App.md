@@ -52,7 +52,7 @@ If you check the csproj file now, you will see the reference for the package in 
 </PackageReference>
 ```
 
-Step 3 
+#### Step 3 
 
 Now modify the code in the ```Program.cs``` file to import ASP.NET Core namespaces
 
@@ -62,7 +62,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
 ```
 
-Step 4 
+#### Step 4 
 
 Restore the dependencies using the below command
 
@@ -70,7 +70,7 @@ Restore the dependencies using the below command
 dotnet restore
 ```
 
-Step 5
+#### Step 5
 
 Execute the project using the below command to host it in Kestrel Server.
 
