@@ -94,7 +94,7 @@ Start serving the application by directly calling the dll
 >Now listening on: http://localhost:5000  
 >Application started. Press Ctrl+C to shut down.  
 
-#### Step 4
+#### Step 5
 If you take the url in the browser, you will see a **Hello World** message in the page. This message is coming from this line in the **startup.cs** file
 ```csharp
     app.Run(async (context) =>
