@@ -27,11 +27,17 @@ namespace start
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
+            DefaultFilesOptions options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("home.html");
+            app.UseDefaultFiles(options);
+            
+            app.UseDefaultFiles();
             app.UseStaticFiles();
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("OOPS, Content is unavailable !!! ");
             });
         }
     }
