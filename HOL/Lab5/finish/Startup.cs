@@ -32,6 +32,7 @@ namespace finish
                 app.UseDeveloperExceptionPage();
             }
 
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
